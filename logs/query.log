@@ -6,3 +6,5 @@
 [QUERY] [INFO ] 2023-11-10 21:23:43 [http-nio-8080-exec-1] [SQL_LOG2:18] - log --> INFO
 [QUERY] [WARN ] 2023-11-10 21:23:43 [http-nio-8080-exec-1] [SQL_LOG2:19] - log --> WARN
 [QUERY] [ERROR] 2023-11-10 21:23:43 [http-nio-8080-exec-1] [SQL_LOG2:20] - log --> ERROR
+#logback.classic pattern: [QUERY] [%-5level] %d{yyyy-MM-dd HH:mm:ss} [%thread] [%logger{40}:%line] - %msg%n
+#logback.classic pattern: [QUERY] [%-5level] %d{yyyy-MM-dd HH:mm:ss} [%thread] [%logger{40}:%line] - %msg%n
